@@ -74,7 +74,7 @@ body{
 .payment{
     background-color: hsl(245, 75%, 52%);
     padding: 20px 75px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     border-radius: 10px;
     color: white;
     margin: 30px 0;
@@ -103,7 +103,7 @@ body{
 
 
 /* THIS IS A DESKTOP SCREEN OF 1440px */
-@media (min-width:1440px) {
+@media (max-width:1440px) {
 
 body{
     padding: 0;
