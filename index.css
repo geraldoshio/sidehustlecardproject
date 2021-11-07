@@ -1,7 +1,7 @@
 *{
     font-family: sans-serif;
 }
-@media (min-width:1440px) {
+
 
 body{
     padding: 0;
@@ -74,6 +74,108 @@ body{
 .payment{
     background-color: hsl(245, 75%, 52%);
     padding: 20px 75px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    color: white;
+    margin: 30px 0;
+    border: none;
+}
+.payment:hover{
+    background-color:rgb(105, 46, 173);
+    border: none;
+    cursor:pointer;
+}
+
+.cancel{
+    border: none;
+    padding: 20px 20px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    background-color:inherit;
+    color: gray;
+}
+.cancel:hover{
+    border: none;
+    cursor:pointer;
+    color: black;
+}
+
+
+/* THIS IS A DESKTOP SCREEN OF 1440px */
+@media (min-width:1440px) {
+
+body{
+    padding: 0;
+    margin: 0 !important;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+.container{
+    text-align: center;
+    margin: 20px 30%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px lightgrey;
+    background-color: hsl(225, 100%, 98%);
+}
+.hero-image{
+    background-image: url('./images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 40vh;
+    border-radius: 20px 20px 0 0;
+}
+.hero-section{
+    padding: 20px 90px;
+}
+.hero-section-one{
+    margin-bottom: 20px;
+}
+.hero-section-one p{
+    font-size: 1.5em;
+    color: hsl(224, 23%, 55%);
+}
+
+.price-section{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px 20px;
+    background-color:rgb(240, 235, 235);
+}
+.price-section-one{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.price-section img{
+    margin-top: 20px;
+    height: 50%;
+    padding: 0 5px;
+}
+.price-section-two p{
+    font-size: 1.2em;
+}
+.price-section-three{
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 1.2em;
+    color: blue;
+}
+.price-section-three:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color:rgb(105, 46, 173);
+}
+.pricing{
+    padding-top: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px 160px;
     font-size: 1.5em;
     border-radius: 10px;
     color: white;
